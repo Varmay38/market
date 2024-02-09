@@ -115,6 +115,13 @@ body{
     font-style: italic;
     transition: 0.05s;
 }
+.card_price--discount::before{
+    content: "Зі знижкою";
+    font-weight: 400px;
+    font-size: 13px;
+    color:#bfbfbf; 
+    font-family: 'Arial';
+}
 
 .card_price--discount:hover{
     transform: scale(1.03);
@@ -127,10 +134,16 @@ body{
     color: #606060;
     display: flex;
     flex-wrap: wrap-reverse;
-    text-decoration: line-through red 2px ;
     justify-content: flex-end;
     font-family: 'Arial';
 
+}
+.card_price--common::before{
+    content: "Звичайна ціна";
+    font-weight: 400;
+    font-size: 13px;
+    color: #bfbfbf;
+    font-family: 'Arial';
 }
 
 .card_title{
