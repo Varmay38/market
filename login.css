@@ -10,7 +10,7 @@ section{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: url('duna.jpg');
+    background: url('ggg.jpg');
     background-position: center;
     background-size: cover;
 }
@@ -108,8 +108,6 @@ button{
     cursor: pointer;
     font-size:1em;
     font-weight: 600;
-    position: relative;
-    top: 25px;
 }
 button:hover{
     background-color: rgba(255, 255, 255, 0.842);
